@@ -1,4 +1,5 @@
 class DendController < ApplicationController
+
   def home
   end
 
@@ -16,4 +17,8 @@ class DendController < ApplicationController
 
   def team
   end
+
+  def factions
+  end
+  
 end

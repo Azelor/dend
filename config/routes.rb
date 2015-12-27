@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get 'dend/team'
 
+  get 'dend/factions'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

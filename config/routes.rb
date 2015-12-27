@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'dend/home'
+
+  get 'dend/timeline'
+
+  get 'dend/history'
+
+  get 'dend/map'
+
+  get 'dend/stuff'
+
+  get 'dend/team'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'dend/home'
+  root 'dend#home'
 
   get 'dend/timeline'
 

@@ -1,1 +1,1 @@
-# An application for a D&D game.
+# An application for a D&D game using Ruby on Rails

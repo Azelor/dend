@@ -4,7 +4,7 @@ class DendControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
-    assert_select "title", "Home | D&D"
+    assert_select "title", "D&D"
   end
 
   test "should get timeline" do

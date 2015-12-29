@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
   root 'dend#home'
 
-  get 'dend/timeline'
+  get 'timeline' => 'dend#timeline'
 
-  get 'dend/history'
+  get 'history' => 'dend#history'
 
-  get 'dend/map'
+  get 'map' => 'dend#map'
 
-  get 'dend/stuff'
+  get 'stuff' => 'dend#stuff'
 
-  get 'dend/team'
+  get 'team' => 'dend#team'
 
-  get 'dend/factions'
+  get 'factions' => 'dend#factions'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

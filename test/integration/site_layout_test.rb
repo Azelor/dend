@@ -12,5 +12,6 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
 		#assert_select "a[href=?]", stuff_path
 		#assert_select "a[href=?]", team_path
 		assert_select "a[href=?]", factions_path
+		
 	end
 end

@@ -49,9 +49,14 @@ h2 {
   color: $gray-light;
 }
 
+li {
+  box-sizing: border-box;
+  text-align: left;
+}
+
 p {
   font-size: 1.1em;
-  line-height: 1.7em;
+  line-height: 1.3em;
 }
 
 
